@@ -305,6 +305,7 @@ class SimplifiedProductionTool(Document):
 		se.update(item_dict)
 
 		se.purpose = "Manufacture"
+		se.stock_entry_type = "Material Transfer for Manufacture"
 		se.status = "submitted" #submitted or "Draft"
 		se.from_bom = 1
 		se.use_multi_level_bom = 1 
